@@ -1,0 +1,679 @@
+@font-face {
+    font-family: 'Graphik LCG';
+    src: url('../fonts/GraphikLCG-Semibold.eot');
+    src: url('../fonts/GraphikLCG-Semibold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GraphikLCG-Semibold.woff2') format('woff2'),
+    url('../fonts/GraphikLCG-Semibold.woff') format('woff'),
+    url('../fonts/GraphikLCG-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Graphik LCG';
+    src: url('../fonts/GraphikLCG-Regular.eot');
+    src: url('../fonts/GraphikLCG-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GraphikLCG-Regular.woff2') format('woff2'),
+    url('../fonts/GraphikLCG-Regular.woff') format('woff'),
+    url('../fonts/GraphikLCG-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Graphik LCG', serif  ;
+}
+
+h1,h2,h3 {
+    font-weight: 600;
+}
+
+u {
+    font-size: 18px;
+}
+
+.center {
+    padding-left: 51px;
+    padding-right: 51px;
+    display: flex;
+
+}
+
+.header {
+    height: 95px;
+}
+
+/*button header*/
+.button {
+
+    width: 120px;
+    height: 45px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 0;
+    cursor: pointer;
+    margin-right: 10px;
+
+
+}
+
+
+
+.button__transparent {
+    width: 120px;
+    height: 45px;
+    text-align: center;
+    background: #FF6336;
+    border:none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
+
+.header__buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    padding: 25px 0 0 0;
+
+}
+/*button header*/
+
+/*nav header*/
+.header__links {
+    text-decoration: none;
+    color: #000000;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+    padding: 39px 0 0 0 ;
+
+
+}
+
+.header__nav {
+    display: flex;
+    justify-content: center;
+    gap: 57px;
+
+}
+
+.header__img {
+    padding: 35px 51px 0 0 ;
+    max-width: 130px;
+}
+
+/*nav header*/
+
+/*about content*/
+
+.about__title {
+    width: 550px;
+    font-size: 65px;
+    line-height: 70px;
+    margin: 130px 0 0 0 ;
+
+}
+
+.about_img {
+    max-width: 700px;
+    margin: 130px 0 0 0;
+    max-height: 530px;
+}
+
+.about__text {
+    font-size: 25px;
+    line-height: 35px;
+    max-width: 470px;
+    margin: 50px 0 0 0;
+}
+
+.about_buttons {
+    margin: 50px 0 0 10px ;
+    width: 160px;
+    height: 60px;
+    line-height: 60px;
+
+}
+/*відступ для кнопки (about)*/
+
+.about__span {
+    display: inline-block;
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    margin: 25px 0 0 0;
+}
+
+/*about content*/
+
+/*section partner*/
+
+.partner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 455px;
+    background-color: #FF9C7D;
+    margin-top: 170px;
+
+}
+
+.partner__title {
+    margin: 108px 0 80px 0;
+    max-width: 720px;
+    font-size: 50px;
+    line-height: 60px;
+}
+
+.partner__photos {
+    display: flex;
+    column-gap: 100px;
+    align-items: center;
+    margin: 0;
+
+}
+
+.partner__logo {
+
+}
+
+.partner__logo.tidal {
+    max-height: 21px;
+}
+
+.partner__logo.revoult {
+    max-height: 25px;
+
+
+}
+
+.partner__logo.daimler {
+    max-height: 19px;
+
+
+}
+
+/*section partner*/
+
+/*section discribe*/
+
+
+
+.discribe__title {
+    width: 495px;
+    font-size: 50px;
+    line-height: 60px;
+    margin: 240px 0 0 0;
+}
+
+.discribe__text {
+    max-width: 520px;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 30px 0 0 0 ;
+    color: #000000;
+
+}
+
+.discribe__footer {
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    margin: 30px 0 0 0;
+}
+
+.discribe__photo {
+    margin: 90px 0 0 120px ;
+    max-width: 630px;
+    max-height: 630px;
+}
+
+
+.second_titile {
+    max-width: 380px;
+    margin: 400px 0 0 0;
+}
+
+.second_text {
+    max-width: 450px;
+}
+
+.second_photo {
+    margin: 250px 120px 0 0 ;
+}
+
+.third_photo {
+    margin: 250px 0 0 100px;
+
+}
+
+.third_title {
+    max-width: 395px;
+    margin: 400px 0 0 0;
+}
+
+.third_text {
+    width: 520px;
+}
+
+.fourth_photo {
+    height: 575px;
+    margin: 250px 100px 0 0;
+}
+
+.fourth_title {
+    max-width: 350px;
+    margin: 400px 0 0 0 ;
+
+}
+
+/*section discribe*/
+
+/*cards section*/
+
+.card__main__title {
+    display: flex;
+    font-size: 50px;
+    line-height: 60px;
+    color: #000000;
+    margin: 120px 0 0 0;
+}
+
+.card__box {
+    margin: 75px 0 0 0;
+    width: 330px;
+
+
+}
+
+.cards_section {
+    background: #FFF8E4;
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 1033px;
+    max-width: 1349px;
+    justify-content: center;
+    column-gap: 128px;
+    margin: 150px 0 0 0 ;
+
+}
+
+
+.cards__logo {
+    display: flex;
+    margin: auto;
+}
+
+.cards__title {
+    display: flex;
+    font-size: 25px;
+    line-height: 35px;
+    justify-content: center;
+}
+
+.cards__text {
+    text-align: center;
+    max-width: 330px;
+    font-size: 18px;
+    line-height: 25px;
+    color: black;
+}
+
+.text_game {
+    width: 280px;
+    margin: auto;
+}
+
+/*cards section*/
+
+
+/* more section*/
+
+.section__more {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 10px;
+    max-width: 1349px;
+}
+
+.more__main__title {
+    font-size: 50px;
+    line-height: 60px;
+    color: #000000;
+    margin: 120px 0 0 0 ;
+}
+
+.more__text {
+    max-width: 409px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    max-height: 210px;
+    margin: 34px 0 25px 0;
+}
+
+.more__img__developers {
+    margin: 92px 0 0 0;
+}
+
+.more__img__translators{
+    margin: 84px 0 0 0;
+}
+
+.more__img__managers {
+    margin: 75px 0 0 0;
+}
+
+.more__title {
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000;
+
+}
+
+.more__footer {
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    margin: 0;
+}
+
+.managers_title {
+    margin: 49px 0 0 0;
+}
+
+.developers__title {
+    margin: 67px 0 0 0;
+}
+
+.translators__title {
+    margin: 58px 0 0 0;
+}
+
+/* more section*/
+
+/*section revoult Edward Cooper*/
+
+.section__revoult {
+    background: #C9E8F2;
+    height: 470px;
+    margin: 215px 0 0 0 ;
+}
+
+
+.revoult__main__text {
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000;
+    max-width: 920px;
+    margin: 65px 60px 25px 0;
+}
+
+.revoult__second__text {
+    font-size: 15px;
+    line-height: 25px;
+    color: black;
+    margin: 0 0 8px 0;
+}
+
+.revoult__section__photo {
+    width: 115px;
+    height: 25px;
+}
+
+.revoult__section__Edward {
+    width: 310px;
+    height: 310px;
+    margin: 55px 0 105px 0;
+}
+
+
+/*section revoult Edward Cooper*/
+
+/*section cake*/
+
+.section__cake {
+    display: flex;
+    background: #DABC98;
+    height: 330px;
+    align-items: center;
+}
+
+.photo__cake {
+    width: 176px;
+    height: 154px;
+    margin: 0 65px 0 0;
+}
+
+.cake__title {
+    font-size: 35px;
+    line-height: 50px;
+    color: black;
+    max-width: 461px;
+    margin: 0 124px 0 0 ;
+}
+
+.cake__line {
+    border-left: 1px solid black;
+    height: 168px;
+}
+
+.cake__block__stars {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 70px;
+    text-align: center;
+}
+
+.cake__photo__c2 {
+    width: 35px;
+    height: 35px;
+    margin-bottom: 20px;
+}
+
+.cake__photo__stars {
+    margin-bottom: 15px;
+    width: 128px;
+    height: 20px;
+}
+
+.cake__photo__capterra {
+    width: 122px;
+    height: 27px;
+}
+
+.cake__block__capterra {
+    margin-bottom: 22px;
+}
+
+.cake {
+    display: flex;
+    margin: 0;
+}
+
+
+/*section cake*/
+
+/*section tools with bird*/
+
+.section__tools {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tools__title {
+    font-size: 65px;
+    line-height: 75px;
+    color: black;
+    margin: 165px 0 0 0;
+    max-width: 790px;
+    text-align: center;
+}
+
+.tools__text {
+    font-size: 25px;
+    line-height: 30px;
+    color: black;
+    max-width: 540px;
+    text-align: center;
+    margin: 0 0 25px 0;
+}
+
+.button_tools {
+    width: 193px;
+    height: 60px;
+    margin: 30px 0 160px 0;
+    line-height: 60px;
+}
+
+/*section tools with bird*/
+
+/*section before footer*/
+
+.section__before__footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FF9C7D;
+    max-height: 603px;
+
+
+}
+
+.before__title {
+    margin: 120px 0 30px 0;
+    max-width: 784px;
+}
+
+.before__text {
+    max-width: 438px;
+    margin: 0 0 54px 0;
+}
+
+.button__before__footer {
+    background: black;
+    color: white;
+    height: 60px;
+    width: 160px;
+    margin: 0 0 160px 0;
+    font-size: 17px;
+    line-height: 60px;
+}
+
+/*section before footer*/
+
+/*footer*/
+
+.section__footer{
+    background: #EEEEEE;
+}
+
+.footer_additional {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer_title {
+    font-size: 40px;
+    line-height: 50px;
+    color: black;
+    margin: 92px 0 28px 0;
+}
+
+.footer__photo__bike {
+    max-width: 300px;
+    max-height: 300px;
+    margin: 0 140px 38px 0;
+}
+
+.footer__photo__partner {
+    max-height: 32px;
+    max-width: 80px;
+}
+
+.footer__text {
+    font-size: 20px;
+    line-height: 30px;
+    color: black;
+    max-width: 290px;
+    margin: 24px 0 15px 0 ;
+}
+
+.footer_text_second {
+    margin: 0 0 95px 0;
+}
+
+.footer__lite__title{
+    font-size: 30px;
+    line-height: 40px;
+    color: black;
+    margin: 97px 0 21px 0;
+}
+
+.footer__list {
+    text-decoration-line: none;
+    color: black;
+}
+
+.footer__list__setting {
+    gap: 15px;
+}
+
+.footer__boxes {
+    display: flex;
+    column-gap: 100px;
+}
+
+
+
+hr {
+    margin: 0 0 52px 0;
+    width: 1247px;
+    border: solid 1px black;
+
+}
+
+.last__block {
+    display: flex;
+    background-color: #EEEEEE;
+    flex-wrap: wrap;
+}
+
+.footer__lokalise__photo {
+    margin: 0 0 52px 0;
+}
+
+.last__block__text {
+    max-width: 301px;
+    font-size: 12px;
+    line-height: 15px;
+    color: black;
+    margin: 0 0 0 14px;
+}
+
+.address {
+    display: flex;
+
+}
+
+.address_text {
+    max-width: 109px;
+    font-size: 12px;
+    line-height: 15px;
+    color: black;
+    margin: 0 0 0 700px;
+}
+
+/*footer*/
